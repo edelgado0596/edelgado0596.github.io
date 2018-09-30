@@ -1,4 +1,4 @@
-h1.myname {
+myname {
     color:darkturquoise;
 }
 p {
@@ -6,4 +6,6 @@ p {
 }
 #Aboutme {
     font-family: cursive
+}
+h2 { Color: BLue;
 }
