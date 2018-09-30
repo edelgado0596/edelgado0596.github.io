@@ -1,4 +1,8 @@
-h1.myname {
+body {
+background-color:light-green;
+}
+
+.myname {
     color:darkturquoise;
 }
 p {
