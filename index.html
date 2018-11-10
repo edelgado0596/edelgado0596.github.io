@@ -9,7 +9,22 @@
 <body>
 
   <h1 class="myname">Erick Delgado's Portfolio</h1>
-    <ul>
+   <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+// Create gradient
+var grd = ctx.createLinearGradient(0,0,200,0);
+grd.addColorStop(0,"antiquewhite");
+grd.addColorStop(1,"darkturquoise");
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10,10,150,80);
+</script>
+  
+  <ul>
         <li><a href="#Aboutme">About me</a></li>
         <li><a href="#Accomplishments">My accomplishments</a></li>
         <li><a href="#Photo"> My photo</a>
