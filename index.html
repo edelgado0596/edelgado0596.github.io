@@ -14,11 +14,11 @@
 <script>
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
-// Create gradient
+// Make gradient
 var grd = ctx.createLinearGradient(50,300,400,50);
 grd.addColorStop(0,"antiquewhite");
 grd.addColorStop(1,"darkturquoise");
-// Fill with gradient
+// Filled in with gradient colors
 ctx.fillStyle = grd;
 ctx.fillRect(10,10,200,85);
 </script>
